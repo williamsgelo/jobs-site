@@ -1,3 +1,33 @@
+## READ First
+
+## Note
+
+I tried to do as much as I can by the given data.
+
+## Note:
+
+I used Google auth so make sure you have all the required keys to make the project run succesfully in your local environment.
+
+## console.cloud.google
+
+1. Setup your credentials and the consent here are some steps to take.
+
+# Authorized JavaScript Origins
+
+URI 1\*
+http:localhost:3000
+
+# Authorized Redirect URIs
+
+http:localhost:3000
+http:localhost:3000/api/auth/callback/google
+
+This urls above is important to make the code work especially the authetication by users.
+
+Also use the generated client secret and cleint id keys within your .env file.
+
+I have kept the env file for example purposes so that the required fields can be filled.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -24,11 +54,3 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
